@@ -1,0 +1,76 @@
+:root {
+  --color-primary: #000000;
+  --color-primary-light: #313131;
+  --color-secondary: #f5f5f5;
+  --color-accent: #ff0000;
+  --color-neutral-grey: #f5f5f5;
+
+  --font-primary: ;
+  --font-secondary: ;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-family: var(--font-primary);
+
+  background-color: white;
+  overflow-x: hidden;
+}
+
+code {
+  color: var(--color-secondary);
+}
+
+p {
+
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: bold
+
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: bold
+
+}
+
+ul, ol, dl {
+  font-family: var(--font-secondary);
+
+}
+
+a,
+a:visited {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+blockquote, cite {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+q {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+em, strong, del, ins, abbr, dfn, i, b, mark, s, u {
+  font-family: var(--font-primary);
+  font-weight: normal;
+
+}
