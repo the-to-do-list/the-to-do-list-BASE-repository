@@ -1,0 +1,9 @@
+permalink: pretty
+theme: jekyll_patternbot
+
+patternbot:
+  font_url: ""
+  colors:
+    background: "--color-neutral-grey"
+    patterns:
+      brand.logos: "--color-neutral-grey"
