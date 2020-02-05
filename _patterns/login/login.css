@@ -20,6 +20,7 @@
   border:0;
   background: none;
   display: block;
+  height:45px;
   margin: 20px auto;
   text-align: center;
   border: 2px solid var(--color-lightblue);
@@ -40,6 +41,7 @@
   border:0;
   background: none;
   display: block;
+  height:50px;
   margin: 20px auto;
   margin-bottom: 40px;
   text-align: center;
@@ -47,11 +49,14 @@
   padding: 15px 60px;
   outline: none;
   color: var(--color-primary);
-
+  font-size: 20pt;
+  font-weight: 600;
   transition: 0.25s;
   cursor: pointer;
 }
 
 .submitbox:hover{
+  color: var(--color-green);
+  background: var(--color-primary);
   border: 2px solid var(--color-green);
 }
