@@ -1,0 +1,57 @@
+.box{
+  width: 400px;
+  padding: 0px;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: var(--color-primary);
+  text-align: center;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box h1{
+  color: var(--color-lightblue);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.textbox{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid var(--color-lightblue);
+  padding: 14px 10px;
+  width: 300px;
+  outline: none;
+  color: var(--color-lightblue);
+
+  transition: 0.25s;
+}
+
+.textbox:focus {
+  width: 380px;
+  border-color: var(--color-green);
+}
+
+.submitbox {
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  text-align: center;
+  background: var(--color-green);
+  padding: 15px 60px;
+  outline: none;
+  color: var(--color-primary);
+
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.submitbox:hover{
+  border: 2px solid var(--color-green);
+}

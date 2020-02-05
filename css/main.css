@@ -6,3 +6,8 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+
+body {
+  background-color: var(--color-blue);
+}
