@@ -3,7 +3,6 @@
   text-decoration: none;
   color: var(--color-lightblue);
   opacity:1;
-  font-family: 'work sans', sans serif;
   font-size: 1.5em;
   font-weight: 400;
   transition: 200ms;
@@ -91,7 +90,7 @@ ul {
 #menu
 {
   position: absolute;
-  width: 180px;
+  width: 300px;
   height: 400px;
   box-shadow: 0 0 10px #85888C;
   margin: -50px 0 0 -50px;
