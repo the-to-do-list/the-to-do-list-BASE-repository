@@ -1,0 +1,12 @@
+title: "Header"
+description: |
+  The elements that make up the basic header and navigations.
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The larger, more general navigations used throughout the website, featuring the basic logo.
+  mobile_nav:
+    title: "Mobile Navigation"
+    description: |
+      The navigation used for the smaller mobile versions throughout the website.
