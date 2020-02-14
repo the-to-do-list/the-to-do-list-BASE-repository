@@ -1,6 +1,6 @@
 .nav-bckd {
   background-color: var(--color-blue);
-  min-height: calc(100vh - 4em);
+  min-height: calc(100vh - 3.375em);
 }
 
 .nav-user {
