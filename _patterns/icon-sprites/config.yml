@@ -1,0 +1,16 @@
+title: "Icons"
+description: |
+  An assortment of icons used througbhout the website.
+patterns:
+  todayicon:
+    title: "Today Icon"
+    description: |
+      The basic 'Today' icon used in mulitple places.
+  tomorrowicon:
+    title: "Tomorrow Icon"
+    description: |
+      The basic 'Tomorrow' icon used in mulitple places.
+  next7icon:
+    title: "Next 7 Days Icon"
+    description: |
+      The basic 'Next 7 Days' icon used in mulitple places.
