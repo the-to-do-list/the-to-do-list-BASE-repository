@@ -1,0 +1,8 @@
+title: "Buttons"
+description: |
+  The creation of the basic login screen layout.
+patterns:
+  login:
+    title: "Login Layout"
+    description: |
+      The login screen featuring the SignUp/LogIn dialogue.
