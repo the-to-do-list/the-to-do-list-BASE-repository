@@ -1,0 +1,8 @@
+title: "Buttons"
+description: |
+  An assortment of buttons used throughout the site as functional navigation and links.
+patterns:
+  button:
+    title: "Button"
+    description: |
+      The basic button with shine animation. This button is featured on the login page, first.
