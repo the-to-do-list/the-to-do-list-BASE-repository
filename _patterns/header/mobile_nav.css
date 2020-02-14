@@ -23,6 +23,7 @@ ul {
 
 
 #menuToggle {
+  width:50px;
   display: flex;
   flex-direction: column;
   position: relative;
