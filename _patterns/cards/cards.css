@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,700);
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.list-name{
+  font-weight: 600;
+  background-color: var(--color-lightblue);
+  color: var(--color-primary);
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container {
+  max-width: 450px;
+  background-color: var(--color-primary);
+  user-select: none;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  counter-reset: done-items undone-items;
+}
+
+.head2 {
+  position: relative;
+  margin: 0;
+  font-weight: 600
+}
+
+.head2::after {
+  display: block;
+  float: right;
+  font-weight: normal;
+}
+
+.done {
+  order: 1;
+  color: var(--color-blue);
+}
+
+.done::after {
+  content: ' (' counter(done-items) ')';
+}
+
+.undone {
+  order: 3;
+  color: var(--color-blue);
+}
+
+.undone::after {
+  content: ' (' counter(undone-items) ')';
+}
+
+input {
+  display: block;
+  height: 53px;
+  margin: 0 0 -53px -9999px;
+  order: 4;
+  outline: none;
+  counter-increment: undone-items;
+}
+
+input:checked {
+  order: 2;
+  counter-increment: done-items;
+}
+
+label {
+  display: block;
+  position: relative;
+  border-top: 1px dashed var(--color-lightblue);
+  order: 4;
+  cursor: pointer;
+  animation: undone .5s;
+}
+
+[type="checkbox"] + label::before {
+  border-color: var(--color-lightblue);
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+}
+
+[type="checkbox"]:checked + label::before {
+  background-color: var(--color-green);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='%23fff' stroke-miterlimit='10' stroke-width='50' d='M49.9 130.1l50.8 50.7L206.1 75.2'/%3E%3C/svg%3E");
+  border-color: white;
+}
+
+label:hover, input:focus + label {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+input:checked + label {
+  order: 2;
+  animation: done .5s;
+}
+
+@keyframes done {
+  0% {
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .4);
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, .4);
+  }
+}
+
+@keyframes undone {
+  0% {
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .4);
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, .4);
+  }
+}
