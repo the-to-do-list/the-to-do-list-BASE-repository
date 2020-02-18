@@ -14,12 +14,14 @@
 }
 
 .container {
+  border-color: var(--color-lightblue);
   max-width: 350px;
   background-color: var(--color-primary);
   user-select: none;
 }
 
 .items {
+  background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
   padding: 20px;

@@ -1,0 +1,14 @@
+.plus-box {
+    opacity: 0.5;
+}
+
+.plus-box-header{
+  background-color: var(--color-lightblue);
+  padding: 32px;
+}
+
+.plus-box-plus {
+  background-color: var(--color-primary);
+  display: flex;
+  padding: 90px;
+}
