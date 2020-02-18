@@ -1,3 +1,7 @@
+.login-bg {
+  background-color: var(--color-blue);
+}
+
 .box{
   width: 400px;
   padding: 0px;
