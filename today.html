@@ -3,51 +3,37 @@ layout: default
 ---
 
 <div class="grid">
-  <div class="unit xs-1-6">
+  <div class="unit xs-1-6 s-1-6 m-1-6 l-1-6">
     {% pattern navigation/side-nav %}
   </div>
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1 body-white">
-      <h2 class="dark-blue mega not-bold pad-t-1-2 gutter">January 17，2020 Friday</h2>
+
+  <div class="grid unit xs-5-6 s-5-6 m-5-6 l-5-6 body-white gutter">
+    <h2 class="unit xs-1 mega bold pad-t-1-2"><u class="dark-blue bold">January 17，2020 Friday</u></h2>
+
+    <div class="unit xs-1 gutter">
+      <p class="mega dark-blue push-1-2">New</p>
+      <div class="push">{% pattern cards/cards %}</div>
+      {% pattern plus-box/plus-box %}
     </div>
-
-    <div class="unit xs-1 s-1 m-1-2 l-1-4">
-      {% pattern cards/cards %}
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4">
-      {% pattern cards/cards %}
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4">
-      {% pattern cards/cards %}
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4">
-      {% pattern cards/cards %}
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-4">
-      {% pattern cards/cards %}
-    </div>
-
-      <!-- <ul class="unit xs-1 s-1 m-1 l-5-6 list-group-inline">
-        <li class="island unit xs-1 s-1 m-1-4">
-          {% pattern cards/cards %}
-        </li>
-
-        <li class="island unit xs-1 s-1 m-1-4">
-          {% pattern cards/cards %}
-        </li>
-
-        <li class="island unit xs-1 s-1 m-1-4">
-          {% pattern cards/cards %}
-        </li>
-
-        <li class="island unit xs-1 s-1 m-1-4">
-          {% pattern cards/cards %}
-        </li>
-      </ul> -->
-
-
 
 
   </div>
-
 </div>
+
+<!-- <ul class="unit xs-1 s-1 m-1 l-5-6 list-group-inline">
+<li class="island unit xs-1 s-1 m-1-4">
+{% pattern cards/cards %}
+</li>
+
+<li class="island unit xs-1 s-1 m-1-4">
+{% pattern cards/cards %}
+</li>
+
+<li class="island unit xs-1 s-1 m-1-4">
+{% pattern cards/cards %}
+</li>
+
+<li class="island unit xs-1 s-1 m-1-4">
+{% pattern cards/cards %}
+</li>
+</ul> -->

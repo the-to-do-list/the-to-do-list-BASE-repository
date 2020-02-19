@@ -19,3 +19,7 @@ body {
 .dark-blue {
   color: var(--color-blue);
 }
+
+.grid-box {
+  width: 100%;
+}
