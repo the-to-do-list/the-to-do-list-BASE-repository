@@ -72,7 +72,7 @@ input:checked {
   counter-increment: done-items;
 }
 
-label {
+.dash {
   display: block;
   position: relative;
   border-top: 1px dashed var(--color-lightblue);
@@ -81,24 +81,24 @@ label {
   animation: undone .5s;
 }
 
-[type="checkbox"] + label::before {
+[type="checkbox"] + .dash::before {
   border-color: var(--color-lightblue);
   width:30px;
   height:30px;
   border-radius: 50%;
 }
 
-[type="checkbox"]:checked + label::before {
+[type="checkbox"]:checked + .dash::before {
   background-color: var(--color-green);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='%23fff' stroke-miterlimit='10' stroke-width='50' d='M49.9 130.1l50.8 50.7L206.1 75.2'/%3E%3C/svg%3E");
   border-color: white;
 }
 
-label:hover, input:focus + label {
+.dash:hover, input:focus + .dash {
   background-color: rgba(255, 255, 255, .2);
 }
 
-input:checked + label {
+input:checked + .dash {
   order: 2;
   animation: done .5s;
 }

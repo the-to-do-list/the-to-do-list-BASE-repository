@@ -1,9 +1,17 @@
+.grid {
+  border: 1px solid var(--color-lightblue);
+}
+
 .task-name {
   color: var(--color-lightblue);
 }
 
 hr.line {
  border: 1px solid var(--color-lightblue);
+}
+
+.cross {
+  float: right;
 }
 
 .text-box {
