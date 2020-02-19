@@ -27,6 +27,7 @@ hr.line {
 }
 
 .container-checkbox {
+  color: var(--color-lightblue);
   display: block;
   position: relative;
   padding-left: 35px;
@@ -84,4 +85,12 @@ hr.line {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .red-left {
+    text-align: left;
+  }
+
 }
