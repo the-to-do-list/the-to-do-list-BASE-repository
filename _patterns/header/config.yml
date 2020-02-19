@@ -10,3 +10,11 @@ patterns:
     title: "Mobile Navigation"
     description: |
       The navigation used for the smaller mobile versions throughout the website.
+  header-changable:
+    title: "Changable Header"
+    description: |
+      This header will display different titles depending on the page.
+    fields:
+      - name: text
+        type: string
+        example: "Today"
