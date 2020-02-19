@@ -9,5 +9,9 @@
 
 
 body {
-  background-color: var(--color-blue);
+  background-color: #fff;
+}
+
+.drop-shadow {
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
