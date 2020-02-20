@@ -38,6 +38,13 @@ ul > li::before {
   content: none;
 }
 
+.underlinenone {
+  text-decoration: none;
+}
+
+.usernamepadding {
+  padding-left: 1em;
+}
 
 @media only screen and (min-width: 38em) {
 
