@@ -25,7 +25,24 @@
   margin-top: 5.2rem;
 }
 
-.iconwhite {
+.iconnav {
   color: #fff;
   padding: 1em;
+}
+
+.iconnavpadding {
+  padding-left: .25em;
+}
+
+ul > li::before {
+  content: none;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .iconnavpadding {
+    padding-left: .5em;
+  }
+
 }
