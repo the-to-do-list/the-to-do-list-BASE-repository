@@ -46,7 +46,7 @@
 }
 
 .textbox:focus {
-  width: 380px;
+  width: 280px;
   border-color: var(--color-green);
 }
 
