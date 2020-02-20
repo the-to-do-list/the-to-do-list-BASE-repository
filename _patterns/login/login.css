@@ -12,7 +12,7 @@
 }
 
 .box{
-  width: 400px;
+  width: 18em;
   padding: 0px;
   border-radius: 15px;
   position: absolute;
@@ -38,7 +38,7 @@
   text-align: center;
   border: 2px solid var(--color-lightblue);
   padding: 14px 10px;
-  width: 300px;
+  width: 250px;
   outline: none;
   color: var(--color-lightblue);
 
