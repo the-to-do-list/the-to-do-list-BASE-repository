@@ -15,3 +15,20 @@ body {
 .drop-shadow {
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
+
+.dark-blue {
+  color: var(--color-blue);
+}
+
+.grid-box {
+  width: 100%;
+}
+
+.pad-left {
+  padding-left: 1.3rem;
+}
+
+.m-gutter {
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
