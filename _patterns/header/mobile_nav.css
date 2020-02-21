@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 25px;
+  top: 18px;
   left: 25px;
   z-index: 1;
   -webkit-user-select: none;
@@ -62,31 +62,40 @@
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
+#menuToggle label {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  padding-top: 6px;
+  position: relative;
+  z-index: 1000;
+}
+
+#menuToggle span:nth-child(2)
 {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
+#menuToggle span:nth-child(3)
 {
   transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span
+#menuToggle input:checked ~ label span
 {
   opacity: 1;
-  transform: rotate(45deg) translate(-3px, -1px);
+  transform: rotate(45deg) translate(-3px, -9px);
   background: #36383F;
 }
-#menuToggle input:checked ~ span:nth-last-child(3)
+#menuToggle input:checked ~ label span:nth-child(1)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
+#menuToggle input:checked ~ label span:nth-child(3)
 {
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, 6px);
 }
 
 #menu
