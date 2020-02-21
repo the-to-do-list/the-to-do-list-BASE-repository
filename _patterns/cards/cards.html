@@ -3,14 +3,14 @@
   <h3 class="push-0 list-name text-left normal giga">List Name</h3>
 
   <div class="items text-left">
-    <input id="item1" type="checkbox" checked>
-    <label class="kilo dash pad-t-1-4 pad-b-1-4" for="item1"><a href="/task">Create a to-do list</a></label>
+    <input id="item1-{{include.id_extra}}" type="checkbox" checked>
+    <label class="kilo dash pad-t-1-4 pad-b-1-4" for="item1-{{include.id_extra}}"><a href="/task">Create a to-do list</a></label>
 
-    <input id="item2" type="checkbox">
-    <label class="kilo dash pad-t-1-4 pad-b-1-4" for="item2"><a href="/task">Take down Christmas tree</a></label>
+    <input id="item2-{{include.id_extra}}" type="checkbox">
+    <label class="kilo dash pad-t-1-4 pad-b-1-4" for="item2-{{include.id_extra}}"><a href="/task">Take down Christmas tree</a></label>
 
-    <input id="item3" type="checkbox">
-    <label class="kilo dash pad-t-1-4 pad-b-1-4" for="item3"><a href="/task">Learn Ember.js</a></label>
+    <input id="item3-{{include.id_extra}}" type="checkbox">
+    <label class="kilo dash pad-t-1-4 pad-b-1-4" for="item3-{{include.id_extra}}"><a href="/task">Learn Ember.js</a></label>
 
     <h4 class="done head2 mega" aria-hidden="true">Done</h4>
     <h4 class="undone head2 mega" aria-hidden="true">Not Done</h4>
